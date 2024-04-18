@@ -1,0 +1,11 @@
+Q1. What is MongoDB.
+    mongoDB is a NoSQL database management system that uses a data-oriented database model. Unlike traditional relational databases, MongoDB does not store data in tables with rows and columns; stores dynamic, JSON-like data with dynamic schemas. This means that each record in the MongoDB database can have its own structure that can be updated over time.
+
+
+Q2. What is difference between mongo DB and SQL
+   - SQL databases follow a tabular structure while MongoDB follows a document-oriented data model
+   - In SQL databases, a predefined schema is required, specifying the structure of each table, including the data types of each column, while MongoDB is schema-less or schema-flexible. Each document can have its own structure, and new fields can be added to documents without affecting other documents in the collection.
+   - SQL databases use the SQL query language, which is standardized and well-established, while MongoDB uses a JSON-like query language for querying documents.
+   - SQL databases typically scale vertically, while MongoDB is designed to scale out horizontally.
+   - SQL databases are often used for applications that require complex queries, transactions, and strong consistency guarantees, such as banking systems, while MongoDB is well-suited for applications with rapidly evolving requirements, unstructured or semi-structured data, and horizontal scalability requirements, such as content management systems.
+    
