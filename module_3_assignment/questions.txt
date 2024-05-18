@@ -1,0 +1,23 @@
+Q1. What is Express.js?
+    Express.js is the most popular web framework for Node.js. It is designed for building web applications and APIs and has been called the de facto standard server framework for Node.js
+
+
+Q2 .Create localhost server using express.
+    (server created in index-1.js file)
+
+
+Q3 . Create basic “Hello world” app using node and express.
+    (basic app is created in index-1.js file)
+
+
+Q4. Create weather app.
+    i. Use Hbs.
+    ii. Get country, state, city using api
+    iii. Get weather data by city
+
+    (code is in app.js)
+
+
+Q5. Create world clock app.
+    ( code is in index.js)
+
