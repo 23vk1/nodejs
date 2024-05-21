@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Login Page
+        //- link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css")
+        link(rel="stylesheet" href="css/login.css") 
+
+    body
+        div 
+            .login-container
+                h1 Login
+                if error
+                    p.error= error
+                if msg 
+                    p.msg= msg
+                form(action="/login" method="POST")
+                    .form-group
+                        label(for="email") Email:
+                        input(type="text" id="email" name="email", required=true)
+                    .form-group
+                        label(for="password") Password:
+                        input(type="password" id="password" name="password", required=true)
+                    .form-group
+                        button(type="submit") Login
+
+                form(action="/register")
+                    button(type="submit") Register
+        
